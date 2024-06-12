@@ -1,0 +1,58 @@
+body {
+    width:100%;
+    margin: auto;
+    background-color: hsl(148, 38%, 91%);
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container {
+    background-color: white;
+    color: hsl(187, 24%, 22%);
+    border-radius: 8px;
+    width: 500px;
+    height: 500px;
+    padding: 20px 17px 17px 20px;
+    margin: auto;
+}
+#names, #radios {
+    display: flex;
+}
+#f-name, #f-radio {
+    margin-right: 80px;
+}
+#frname, #lname, #email {
+    height: 20px;
+    border-radius: 8px;
+    border-color: hsl(186, 15%, 59%);
+    padding: 5px;
+}
+#email-address, #radios, #textarea {
+    margin: 15px 0 15px 0 ;
+}
+#f-radio, #s-radio {
+    border: solid;
+    border-width: 2px;
+    width: 200px;
+    height: 20px;
+    border-radius: 8px;
+    border-color: hsl(186, 15%, 59%);
+    padding: 10px;
+}
+#messages {
+    border-width:2px ;
+    border-radius: 8px;
+    border-color: hsl(186, 15%, 59%);
+}
+#enquiry, #request, #check{
+    accent-color: hsl(169, 82%, 27%);
+}
+#submit {
+    margin: 15px 0 15px 0;
+    padding: 14px 225px;
+    border-radius: 8px;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+}
